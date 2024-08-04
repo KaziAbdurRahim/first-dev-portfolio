@@ -27,4 +27,10 @@ footer{
     border: 1px solid  #40534C;
     border-collapse: collapse;
 }
+tr:nth-child(even) {
+    background-color: #069494;
+  }
+td:nth-child(even), th:nth-child(even) {
+    background-color:rgba(37, 52, 124,0.5);
+  }
 
