@@ -4,7 +4,25 @@
     margin: 0;
 }
 nav{
+    padding: .5rem;
+    display: flex;
+    justify-content: space-between;
     background-color: #40534C;
+    align-items: center;
+}
+/* nav>p{
+    text-align: center;
+} */
+nav >ul li{
+    list-style: none;
+    display:  inline-block;
+    margin: .3rem;
+    padding: .3rem;
+    /* border: 2px solid red; */
+}
+nav >ul li:hover{
+    cursor: pointer;
+    background-color: #069494;
 }
 .btn-primary{
     background-color: #677D6A;
@@ -30,7 +48,7 @@ footer{
 tr:nth-child(even) {
     background-color: #069494;
   }
-td:nth-child(even), th:nth-child(even) {
+/* td:nth-child(even), th:nth-child(even) {
     background-color:rgba(37, 52, 124,0.5);
-  }
+  } */
 
