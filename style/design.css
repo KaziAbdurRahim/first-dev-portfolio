@@ -51,4 +51,7 @@ tr:nth-child(even) {
 /* td:nth-child(even), th:nth-child(even) {
     background-color:rgba(37, 52, 124,0.5);
   } */
+   .form{
+    display: flex;
+   }
 
